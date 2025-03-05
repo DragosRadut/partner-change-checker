@@ -1,0 +1,1 @@
+# partner-change-checker
