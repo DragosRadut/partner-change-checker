@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Diff Checker</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        textarea { width: 90%; height: 150px; margin: 10px 0; }
+        pre { background: #f4f4f4; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+
+    <h2>JSON Diff Checker</h2>
+    <textarea id="json1" placeholder="Paste first JSON here..."></textarea>
+    <textarea id="json2" placeholder="Paste second JSON here..."></textarea>
+    <button onclick="compareJSON()">Compare</button>
+    
+    <h3>Differences:</h3>
+    <pre id="result"></pre>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
